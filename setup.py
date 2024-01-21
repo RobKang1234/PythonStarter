@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'pyinit=pystarter.cli:main',
+            'pyinit=pystarter.src.cli:main',
         ],
     },
     include_package_data=True,  # This will include non-code files specified in MANIFEST.in

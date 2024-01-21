@@ -1,3 +1,19 @@
+test_ini = """
+# pytest.ini
+[pytest]
+addopts = -ra -q
+testpaths =
+    tests
+"""
+
+test_placeholder = """
+# tests/test_placeholder.py
+
+def test_placeholder():
+    assert True
+"""
+
+gitignore_temp = """
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -151,8 +167,44 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-env12
-env_test
-pystarter/src/.DS_Store
 
+"""
+
+
+git_attributes = """
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.c text
+*.h text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.sln text eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+"""
+
+bumpversion_cfg = """
+[bumpversion]
+current_version = 0.0.1
+commit = True
+tag = True
+
+[bumpversion:file:setup.py]
+"""
+
+manifest_in = """
+# Include the README
+include *.md
+
+# Include the license file
+include LICENSE
+
+# Include the data files
+recursive-include data *
+"""
 
