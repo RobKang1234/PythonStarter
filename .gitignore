@@ -152,3 +152,4 @@ cython_debug/
 #.idea/
 
 env12
+pystarter/src/.DS_Store
