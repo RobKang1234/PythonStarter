@@ -11,6 +11,11 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'pystarter=pystarter.cli:main',
+        ],
+    },
     include_package_data=True,  # This will include non-code files specified in MANIFEST.in
     python_requires='>3.11',  # This specifies that your package requires Python > 3.11
     install_requires=required,
