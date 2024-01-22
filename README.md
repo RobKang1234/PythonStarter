@@ -1,6 +1,11 @@
 # PythonStarter
  Auto-generate starter template of python3 and create env
 
+# Install
+```bash
+ pip install py-starter-auto-template
+```
+
 # Usage
 ## To create a project base template with bump2version managing versioning
 ```bash
