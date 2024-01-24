@@ -1,7 +1,7 @@
 import argparse
 
-from pystarter.src.actions.setup_project import create_project_floder
-from pystarter.src.actions.workflow import create_ci_workflow
+from python_starter.src.actions.setup_project import create_project_floder
+from python_starter.src.actions.workflow import create_ci_workflow
 
 def main():
     parser = argparse.ArgumentParser(description='Create a Python project.')

@@ -1,7 +1,7 @@
 import os
 import sys
 
-from pystarter.src.templates.const import (
+from python_starter.src.templates.const import (
     test_ini, 
     test_placeholder, 
     gitignore_temp, 
