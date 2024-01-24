@@ -3,7 +3,7 @@
 
 # Install
 ```bash
- pip install py-starter-auto-template
+ pip install py-starter-auto-template==0.0.2
 ```
 
 # Usage
