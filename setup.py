@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='py_starter_auto_template',
-    version='0.0.1',  # Initial version, will be managed by bump2version
+    version='0.0.2',  # Initial version, will be managed by bump2version
     description='Creating a template Python package with a CLI interface. ',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
